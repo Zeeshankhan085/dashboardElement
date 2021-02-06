@@ -1,0 +1,26 @@
+$primary-color: #e11936;
+$main-black: #302e2c;
+$grey: #9f9eb1;
+$green: #19df40;
+$green-bright: #57ff78;
+$green-washed: #d1f9d9;
+$line: #e0e0e0;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+/* Global Styling */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
